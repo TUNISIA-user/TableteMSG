@@ -15,11 +15,12 @@ let data = ""
 inputValue.addEventListener("input",(event)=>{
     data  = event.target.value
     console.log(data,"change event here")
+ 
     })
 
 
 send.addEventListener("click",()=>{
-         if (data.trim() === "") return; // Avoid adding empty messages
+           data.trim() === "" &&""
 
       const   object1 = {id : api.length,msg : data,received : select.value}
         api.push(object1)
