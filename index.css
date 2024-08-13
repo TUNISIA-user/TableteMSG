@@ -1,0 +1,117 @@
+.container__FrontBar{
+    background-color: #252525;
+    width: 30%;
+    height: 900px;
+    border-radius: 30px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.conatiner__FrontBar{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.blog{
+    background-color: #dddcdc;
+    width: 96%;
+    height: 800px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 10px 10px rgb(208, 211, 212);
+
+}
+.message{
+    width:130px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.messageright{
+    width:130px;
+    background-color: rgb(107, 161, 71);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: auto;
+
+    text-align: center;
+
+}
+
+.conatiner__FrontBar > input{
+    width: 70%;
+    height: 30px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+
+}
+.conatiner__FrontBar{
+    background-color: rgb(34, 28, 28);
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+ 
+ 
+ #inputValue{
+    width: 400px;
+    padding: 10px;
+    border-radius:12px;
+ }
+ #send{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#blog{
+    overflow-y: auto;
+}
+
+ 
+ .camera{
+    background-color: rgb(54, 56, 54);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .cirle__camera{
+    background-color: rgb(218, 214, 214);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+ }
+
+ #select ,#send{
+   position: relative;
+   left: 15px;
+ }
