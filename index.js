@@ -14,7 +14,7 @@ let data = ""
 
 inputValue.addEventListener("input",(event)=>{
     data  = event.target.value
-     
+    console.log(data,"change event here")
     })
 
 
