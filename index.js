@@ -12,9 +12,9 @@ localStorage.setItem("arr", api)
 
 let data = ""
 
-inputValue.addEventListener("input",(e)=>{
-    data  = e.target.value
-      
+inputValue.addEventListener("input",(event)=>{
+    data  = event.target.value
+     
     })
 
 
